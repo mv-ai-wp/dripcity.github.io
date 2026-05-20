@@ -1,1 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Drip City - Football Gear Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: white;
+    }
+
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      font-size: 32px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      border-bottom: 2px solid #00ff88;
+    }
+
+    .hero {
+      padding: 70px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #00ff88, #0077ff);
+      color: black;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+
+    .hero button {
+      padding: 14px 28px;
+      background: black;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .hero button:hover {
+      background: #222;
+    }
+
+    .categories {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 25px;
+      border-radius: 12px;
+      border: 1px solid #333;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: #00ff88;
+      box-shadow: 0 0 20px rgba(0,255,136,0.3);
+    }
+
+    .card img {
+      width: 100%;
+      max-height: 160px;
+      object-fit: contain;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .card h2 {
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      font-size: 15px;
+      color: #ccc;
+      margin-bottom: 18px;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 10px 16px;
+      background: #00ff88;
+      color: black;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .card a:hover {
+      background: #00cc6d;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+      background: #111;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>Drip City</header>
+
+<section class="hero">
+  <h1>Welcome to Drip City</h1>
+  <p>Your all‑in‑one football gear hub — built for players who want to dominate.</p>
+  <button onclick="document.getElementById('categories').scrollIntoView({behavior:'smooth'})">
+    Explore Categories
+  </button>
+</section>
+
+<section id="categories" class="categories">
+
+  <div class="card">
+    <img src="https://classic.cdn.media.amplience.net/i/hibbett/F8122_0201_right" alt="Cleats">
+    <h2>Cleats</h2>
+    <p>Elite traction and speed for every position on the field.</p>
+    <a href="cleats.html">Shop Cleats</a>
+  </div>
+  
+  <div class="card">
+    <img src="https://battlesports.com/cdn/shop/articles/DSC01508_1.webp?v=1757966585" alt="Gloves">
+    <h2>Gloves</h2>
+    <p>Sticky grip and premium control for receivers and playmakers.</p>
+    <a href="gloves.html">Shop Gloves</a>
+  </div>
+  
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKIzho4AWnsAOw4iWie1qNRYN3Ttsm7Pal8A&s" alt="Compression">
+    <h2>Compression</h2>
+    <p>Stay warm, stay fast, stay locked‑in with performance layers.</p>
+    <a href="compression.html">Shop Compression</a>
+  </div>
+
+  <div class="card">
+    <img src="https://battlesports.com/cdn/shop/collections/DSC08718__84339_0c0c46a7-fcf7-4e2a-8674-534029b593eb.jpg?v=1752615625&width=600" alt="Drip">
+    <h2>Drip</h2>
+    <p>Accessories that complete your look — towels, socks, bands, and more.</p>
+    <a href="drip.html">Shop Drip</a>
+  </div>
+
+  
+
+</section>
+
+<footer>
+  © 2026 Drip City — Built for athletes chasing greatness.
+</footer>
+
+</body>
+</html>
