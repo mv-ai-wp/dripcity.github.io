@@ -1,1 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Elite Compression Gear</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: white;
+    }
+
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      border-bottom: 2px solid #00ff88;
+    }
+
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #00ff88, #0077ff);
+      color: black;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .hero button {
+      padding: 12px 24px;
+      background: black;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .hero button:hover {
+      background: #222;
+    }
+
+    .products {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid #333;
+      transition: 0.3s;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: #00ff88;
+      box-shadow: 0 0 20px rgba(0,255,136,0.3);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: contain;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      background: #000;
+      padding: 10px;
+    }
+
+    .card h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #ccc;
+      margin-bottom: 15px;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 10px 16px;
+      background: #00ff88;
+      color: black;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .card a:hover {
+      background: #00cc6d;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: #111;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>Drip City — COMPRESSION</header>
+
+<section class="hero">
+  <h1>Elite Compression Gear</h1>
+  <p>Stay fast, stay warm, stay locked‑in — built for every down.</p>
+  <button onclick="document.getElementById('shop').scrollIntoView({behavior:'smooth'})">
+    Shop Compression
+  </button>
+</section>
+
+<section id="shop" class="products">
+
+  <div class="card">
+    <img src="https://battlesports.com/cdn/shop/files/light-action-hoodies-face-mask-sleeveless-light-action-hoodie-adult-and-youth__15304.1689626159.1280.1280.jpg?v=1744105415&width=1200" 
+         alt="Battle Sleeveless Light‑Action Hoodie">
+    <h2>Battle Sleeveless Light‑Action Hoodie</h2>
+    <p>Lightweight, breathable, and perfect for warm‑ups or 7v7.</p>
+    <a href="https://www.dickssportinggoods.com/p/battle-sports-sleeveless-light-action-football-hoodie-22btlalhdslvlsswlftb/22btlalhdslvlsswlftb?sku=23320267" target="_blank">
+      View on DSG
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://kutfootball.com/cdn/shop/files/03_optimized.webp?v=1773343291" 
+         alt="KUT Short‑Sleeve Turtleneck Compression">
+    <h2>KUT Short‑Sleeve Turtleneck Compression</h2>
+    <p>Classic turtleneck look with modern compression performance.</p>
+    <a href="https://kutfootball.com/products/short-sleeve-turtleneck-compression-shirt?variant=43476393296048" target="_blank">
+      View on KUT
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/I/61Lq49e8i0L._AC_UY1000_.jpg" 
+         alt="Nxtrnd Core Mock Neck">
+    <h2>Nxtrnd Core Mock Neck (White)</h2>
+    <p>Elite moisture‑wicking fabric with a clean mock‑neck finish.</p>
+    <a href="https://nxtrndusa.com/products/nxtrnd-core-mock-neck-compression-short-sleeve-white?variant=42580908277862" target="_blank">
+      View on Nxtrnd
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://battlesports.com/cdn/shop/files/battle-sports-long-sleeve-performance-big-logo-adult-and-youth__69354.1710196865.1280.1280.jpg?v=1743515404&width=1200" 
+         alt="Battle Long‑Sleeve Performance Compression">
+    <h2>Battle Long‑Sleeve Performance Compression</h2>
+    <p>Full‑coverage compression built for cold games and tough reps.</p>
+    <a href="https://battlesports.com/products/long-sleeve-performance-team-adult-youth?variant=51389338419473" target="_blank">
+      View on Battle
+    </a>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 Drip City — Links redirect to official retailers for checkout.
+</footer>
+
+</body>
+</html>
