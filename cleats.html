@@ -1,1 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Elite Football Cleats</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: white;
+    }
+
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      border-bottom: 2px solid #00ff88;
+    }
+
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #00ff88, #0077ff);
+      color: black;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .hero button {
+      padding: 12px 24px;
+      background: black;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .hero button:hover {
+      background: #222;
+    }
+
+    .products {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid #333;
+      transition: 0.3s;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: #00ff88;
+      box-shadow: 0 0 20px rgba(0,255,136,0.3);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      background: #000;
+      padding: 10px;
+    }
+
+    .card h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #ccc;
+      margin-bottom: 15px;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 10px 16px;
+      background: #00ff88;
+      color: black;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .card a:hover {
+      background: #00cc6d;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: #111;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>Drip City</header>
+
+<section class="hero">
+  <h1>Elite Football Cleats</h1>
+  <p>Speed, traction, and style — built for players who want to dominate.</p>
+  <button onclick="document.getElementById('shop').scrollIntoView({behavior:'smooth'})">
+    Shop Now
+  </button>
+</section>
+
+<section id="shop" class="products">
+
+  <div class="card">
+    <img src="https://cdn.media.amplience.net/i/scheelspoc/19873025197?w=500&h=500&fmt=auto&v=1" alt="Nike Alpha Menace 5 Pro Mid">
+    <h2>Nike Alpha Menace 5 Pro Mid</h2>
+    <p>Explosive traction and locked‑in support for hybrid athletes.</p>
+    <a href="https://www.dickssportinggoods.com/p/nike-alpha-menace-5-pro-mid-football-cleats-26nikafootlphmnc5pqbk/26nikafootlphmnc5pqbk?sku=27819071" target="_blank">
+      View on DSG
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://assets.adidas.com/images/c_fill,g_auto,w_1200,h_630,f_auto,q_auto/w_600,f_auto,q_auto/8787ce2706bc4ba1a756f110062b0e4c_9366/Adizero_Electric_II_Currency_Neutral_Football_Cleats_Pink_JQ3979_01_00_standard.jpg" alt="Adidas Adizero Electric II Currency">
+    <h2>Adidas Adizero Electric II Currency</h2>
+    <p>Ultra‑lightweight design for pure speed and acceleration.</p>
+    <a href="https://www.dickssportinggoods.com/p/adidas-adizero-electric-ii-currency-football-cleats-26adiafootdzrlctrcwas/26adiafootdzrlctrcwas?sku=27889497" target="_blank">
+      View on DSG
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://academy.scene7.com/is/image/academy/21630423?$pdp-mobile-gallery-ng$" alt="Adidas Adizero Impact II Mid">
+    <h2>Adidas Adizero Impact II Mid</h2>
+    <p>Balanced support and agility for all‑around players.</p>
+    <a href="https://www.dickssportinggoods.com/p/adidas-adizero-impact-ii-currency-mid-football-cleats-26adiafootmpctblkrlso/26adiafootmpctblkrlso?sku=27889601" target="_blank">
+      View on DSG
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.stockx.com/images/Nike-Vapor-Edge-360-Untouchable-Mid-White-Metallic-Silver-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1751901191" alt="Nike Vapor Edge 360 Untouchable Mid">
+    <h2>Nike Vapor Edge 360 Untouchable Mid</h2>
+    <p>360° traction plate for sharp cuts and explosive breaks.</p>
+    <a href="https://www.dickssportinggoods.com/p/nike-vapor-edge-360-untouchable-mid-football-cleats-24nikmvprdg360tblclt/24nikmvprdg360tblclt?sku=25454131" target="_blank">
+      View on DSG
+    </a>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 Drip City — Links redirect to Dick's Sporting Goods for checkout.
+</footer>
+
+</body>
+</html>
