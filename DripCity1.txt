@@ -1,0 +1,942 @@
+cleats.html:
+-----------
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Elite Football Cleats</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: white;
+    }
+
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      border-bottom: 2px solid #00ff88;
+    }
+
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #00ff88, #0077ff);
+      color: black;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .hero button {
+      padding: 12px 24px;
+      background: black;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .hero button:hover {
+      background: #222;
+    }
+
+    .products {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid #333;
+      transition: 0.3s;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: #00ff88;
+      box-shadow: 0 0 20px rgba(0,255,136,0.3);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      background: #000;
+      padding: 10px;
+    }
+
+    .card h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #ccc;
+      margin-bottom: 15px;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 10px 16px;
+      background: #00ff88;
+      color: black;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .card a:hover {
+      background: #00cc6d;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: #111;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>Drip City</header>
+
+<section class="hero">
+  <h1>Elite Football Cleats</h1>
+  <p>Speed, traction, and style — built for players who want to dominate.</p>
+  <button onclick="document.getElementById('shop').scrollIntoView({behavior:'smooth'})">
+    Shop Now
+  </button>
+</section>
+
+<section id="shop" class="products">
+
+  <div class="card">
+    <img src="https://cdn.media.amplience.net/i/scheelspoc/19873025197?w=500&h=500&fmt=auto&v=1" alt="Nike Alpha Menace 5 Pro Mid">
+    <h2>Nike Alpha Menace 5 Pro Mid</h2>
+    <p>Explosive traction and locked‑in support for hybrid athletes.</p>
+    <a href="https://www.dickssportinggoods.com/p/nike-alpha-menace-5-pro-mid-football-cleats-26nikafootlphmnc5pqbk/26nikafootlphmnc5pqbk?sku=27819071" target="_blank">
+      View on DSG
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://assets.adidas.com/images/c_fill,g_auto,w_1200,h_630,f_auto,q_auto/w_600,f_auto,q_auto/8787ce2706bc4ba1a756f110062b0e4c_9366/Adizero_Electric_II_Currency_Neutral_Football_Cleats_Pink_JQ3979_01_00_standard.jpg" alt="Adidas Adizero Electric II Currency">
+    <h2>Adidas Adizero Electric II Currency</h2>
+    <p>Ultra‑lightweight design for pure speed and acceleration.</p>
+    <a href="https://www.dickssportinggoods.com/p/adidas-adizero-electric-ii-currency-football-cleats-26adiafootdzrlctrcwas/26adiafootdzrlctrcwas?sku=27889497" target="_blank">
+      View on DSG
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://academy.scene7.com/is/image/academy/21630423?$pdp-mobile-gallery-ng$" alt="Adidas Adizero Impact II Mid">
+    <h2>Adidas Adizero Impact II Mid</h2>
+    <p>Balanced support and agility for all‑around players.</p>
+    <a href="https://www.dickssportinggoods.com/p/adidas-adizero-impact-ii-currency-mid-football-cleats-26adiafootmpctblkrlso/26adiafootmpctblkrlso?sku=27889601" target="_blank">
+      View on DSG
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.stockx.com/images/Nike-Vapor-Edge-360-Untouchable-Mid-White-Metallic-Silver-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1751901191" alt="Nike Vapor Edge 360 Untouchable Mid">
+    <h2>Nike Vapor Edge 360 Untouchable Mid</h2>
+    <p>360° traction plate for sharp cuts and explosive breaks.</p>
+    <a href="https://www.dickssportinggoods.com/p/nike-vapor-edge-360-untouchable-mid-football-cleats-24nikmvprdg360tblclt/24nikmvprdg360tblclt?sku=25454131" target="_blank">
+      View on DSG
+    </a>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 Drip City — Links redirect to Dick's Sporting Goods for checkout.
+</footer>
+
+</body>
+</html>
+
+compression.html:
+----------------
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Elite Compression Gear</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: white;
+    }
+
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      border-bottom: 2px solid #00ff88;
+    }
+
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #00ff88, #0077ff);
+      color: black;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .hero button {
+      padding: 12px 24px;
+      background: black;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .hero button:hover {
+      background: #222;
+    }
+
+    .products {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid #333;
+      transition: 0.3s;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: #00ff88;
+      box-shadow: 0 0 20px rgba(0,255,136,0.3);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: contain;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      background: #000;
+      padding: 10px;
+    }
+
+    .card h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #ccc;
+      margin-bottom: 15px;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 10px 16px;
+      background: #00ff88;
+      color: black;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .card a:hover {
+      background: #00cc6d;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: #111;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>Drip City — COMPRESSION</header>
+
+<section class="hero">
+  <h1>Elite Compression Gear</h1>
+  <p>Stay fast, stay warm, stay locked‑in — built for every down.</p>
+  <button onclick="document.getElementById('shop').scrollIntoView({behavior:'smooth'})">
+    Shop Compression
+  </button>
+</section>
+
+<section id="shop" class="products">
+
+  <div class="card">
+    <img src="https://battlesports.com/cdn/shop/files/light-action-hoodies-face-mask-sleeveless-light-action-hoodie-adult-and-youth__15304.1689626159.1280.1280.jpg?v=1744105415&width=1200" 
+         alt="Battle Sleeveless Light‑Action Hoodie">
+    <h2>Battle Sleeveless Light‑Action Hoodie</h2>
+    <p>Lightweight, breathable, and perfect for warm‑ups or 7v7.</p>
+    <a href="https://www.dickssportinggoods.com/p/battle-sports-sleeveless-light-action-football-hoodie-22btlalhdslvlsswlftb/22btlalhdslvlsswlftb?sku=23320267" target="_blank">
+      View on DSG
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://kutfootball.com/cdn/shop/files/03_optimized.webp?v=1773343291" 
+         alt="KUT Short‑Sleeve Turtleneck Compression">
+    <h2>KUT Short‑Sleeve Turtleneck Compression</h2>
+    <p>Classic turtleneck look with modern compression performance.</p>
+    <a href="https://kutfootball.com/products/short-sleeve-turtleneck-compression-shirt?variant=43476393296048" target="_blank">
+      View on KUT
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/I/61Lq49e8i0L._AC_UY1000_.jpg" 
+         alt="Nxtrnd Core Mock Neck">
+    <h2>Nxtrnd Core Mock Neck (White)</h2>
+    <p>Elite moisture‑wicking fabric with a clean mock‑neck finish.</p>
+    <a href="https://nxtrndusa.com/products/nxtrnd-core-mock-neck-compression-short-sleeve-white?variant=42580908277862" target="_blank">
+      View on Nxtrnd
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://battlesports.com/cdn/shop/files/battle-sports-long-sleeve-performance-big-logo-adult-and-youth__69354.1710196865.1280.1280.jpg?v=1743515404&width=1200" 
+         alt="Battle Long‑Sleeve Performance Compression">
+    <h2>Battle Long‑Sleeve Performance Compression</h2>
+    <p>Full‑coverage compression built for cold games and tough reps.</p>
+    <a href="https://battlesports.com/products/long-sleeve-performance-team-adult-youth?variant=51389338419473" target="_blank">
+      View on Battle
+    </a>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 Drip City — Links redirect to official retailers for checkout.
+</footer>
+
+</body>
+</html>
+
+drip.html:
+---------
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Elite Football Drip</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: white;
+    }
+
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      border-bottom: 2px solid #00ff88;
+    }
+
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #00ff88, #0077ff);
+      color: black;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .hero button {
+      padding: 12px 24px;
+      background: black;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .hero button:hover {
+      background: #222;
+    }
+
+    .products {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid #333;
+      transition: 0.3s;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: #00ff88;
+      box-shadow: 0 0 20px rgba(0,255,136,0.3);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: contain;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      background: #000;
+      padding: 10px;
+    }
+
+    .card h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #ccc;
+      margin-bottom: 15px;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 10px 16px;
+      background: #00ff88;
+      color: black;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .card a:hover {
+      background: #00cc6d;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: #111;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>Drip City — DRIP</header>
+
+<section class="hero">
+  <h1>Elite Football Drip</h1>
+  <p>Look good, feel good, play good — the accessories that complete your game.</p>
+  <button onclick="document.getElementById('shop').scrollIntoView({behavior:'smooth'})">
+    Shop Drip
+  </button>
+</section>
+
+<section id="shop" class="products">
+
+  <div class="card">
+    <img src="https://cdn.media.amplience.net/i/scheelspoc/62817648049?w=500&h=500&fmt=auto&v=1" 
+         alt="Nxtrnd TWO Lip Guard">
+    <h2>Nxtrnd TWO Lip Guard</h2>
+    <p>Maximum airflow + bold style — the go‑to mouthpiece for skill players.</p>
+    <a href="https://www.dickssportinggoods.com/p/nxtrnd-two-football-lip-guard-25nxtuspornxtrndtwcdc/25nxtuspornxtrndtwcdc?sku=26733808" target="_blank">
+      View on DSG
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://nxtrndusa.com/cdn/shop/files/Main-Towel-White_400x.png?v=1763054793" 
+         alt="Nxtrnd SKL Skill Towel">
+    <h2>Nxtrnd SKL Skill Towel (White)</h2>
+    <p>Clean, lightweight, and essential for keeping your hands game‑ready.</p>
+    <a href="https://nxtrndusa.com/products/nxtrnd-skl-football-skill-towel-white?variant=39502123139174" target="_blank">
+      View on Nxtrnd
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://nxtrndusa.com/cdn/shop/files/Orange-Sock-Lifestyle-03.jpg?v=1763052531&width=1500" 
+         alt="Nxtrnd XTD Scrunch Socks">
+    <h2>Nxtrnd XTD Scrunch Socks (White)</h2>
+    <p>Iconic scrunch look with elite comfort and moisture control.</p>
+    <a href="https://nxtrndusa.com/products/nxtrnd-xtd-scrunch-football-socks-white?variant=39351626137702" target="_blank">
+      View on Nxtrnd
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://nxtrndusa.com/cdn/shop/files/Orange-Wrist-Bands-Lifestyle-01.jpg?v=1763055029&width=1500" 
+         alt="Nxtrnd Arm Bands">
+    <h2>Nxtrnd Arm Bands (White)</h2>
+    <p>Minimalist bands that add clean drip and keep sleeves locked in.</p>
+    <a href="https://nxtrndusa.com/products/nxtrnd-arm-bands-white?variant=39746559311974" target="_blank">
+      View on Nxtrnd
+    </a>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 Drip City — Links redirect to official retailers for checkout.
+</footer>
+
+</body>
+</html>
+
+gloves.html:
+-----------
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Elite Football Gloves</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: white;
+    }
+
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      border-bottom: 2px solid #00ff88;
+    }
+
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #00ff88, #0077ff);
+      color: black;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .hero button {
+      padding: 12px 24px;
+      background: black;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .hero button:hover {
+      background: #222;
+    }
+
+    .products {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid #333;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: #00ff88;
+      box-shadow: 0 0 20px rgba(0,255,136,0.3);
+    }
+
+    .card img {
+      width: 100%;
+      max-height: 180px;
+      object-fit: contain;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .card h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #ccc;
+      margin-bottom: 15px;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 10px 16px;
+      background: #00ff88;
+      color: black;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .card a:hover {
+      background: #00cc6d;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: #111;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>Drip City — GLOVES</header>
+
+<section class="hero">
+  <h1>Elite Football Gloves</h1>
+  <p>Grip, control, and swagger — built for playmakers.</p>
+  <button onclick="document.getElementById('shop').scrollIntoView({behavior:'smooth'})">
+    Shop Gloves
+  </button>
+</section>
+
+<section id="shop" class="products">
+
+  <div class="card">
+    <img src="https://tb-static.uber.com/prod/image-proc/processed_images/f740a96fc3de11e36369813915a4ebcb/b4665c191b34baf3d0e0fa45dfdd3d1d.jpeg" alt="Nike Vapor Jet 9.0 Energy Gloves">
+    <h2>Nike Vapor Jet 9.0 Energy Gloves</h2>
+    <p>Sticky Magnigrip palms for insane catches in any weather.</p>
+    <a href="https://www.dickssportinggoods.com/p/nike-adult-vapor-jet-9-0-energy-football-gloves-26nikyfootvj90fgnrabo/26nikyfootvj90fgnrabo?sku=27589334" target="_blank">
+      View on DSG
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/I/71NBiJCaX2L.jpg" alt="Nxtrnd G1 Pro Gloves">
+    <h2>Nxtrnd G1 Pro Gloves (White)</h2>
+    <p>Ultra‑flexible, lightweight, and built for elite hand control.</p>
+    <a href="https://nxtrndusa.com/products/nxtrnd-g1-pro-football-gloves-white?variant=42455104716902" target="_blank">
+      View on Nxtrnd
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://academy.scene7.com/is/image/academy/21359853" alt="Jordan Fly Lock 2.0 Gloves">
+    <h2>Jordan Fly Lock 2.0 Gloves</h2>
+    <p>Premium Jordan grip with a locked‑in fit for confident catches.</p>
+    <a href="https://www.dickssportinggoods.com/p/jordan-fly-lock-2-0-football-gloves-24jdnmjrdnflylck2ftc/24jdnmjrdnflylck2ftc?sku=26457031" target="_blank">
+      View on DSG
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/I/71t0LChzz5L._AC_UF1000,1000_QL80_.jpg" alt="Phenom Elite VPS5 The Joker Gloves">
+    <h2>Phenom Elite VPS5 "The Joker" Gloves</h2>
+    <p>Insane grip + crazy design for players who want to stand out.</p>
+    <a href="https://www.dickssportinggoods.com/p/phenom-elite-adult-vps5-the-jocker-football-gloves-24rymavprstckthjkftc/24rymavprstckthjkftc?sku=26548667" target="_blank">
+      View on DSG
+    </a>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 Drip City — Links redirect to official retailers for checkout.
+</footer>
+
+</body>
+</html>
+
+index.html:
+----------
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Drip City - Football Gear Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: white;
+    }
+
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      font-size: 32px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      border-bottom: 2px solid #00ff88;
+    }
+
+    .hero {
+      padding: 70px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #00ff88, #0077ff);
+      color: black;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+
+    .hero button {
+      padding: 14px 28px;
+      background: black;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .hero button:hover {
+      background: #222;
+    }
+
+    .categories {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 25px;
+      border-radius: 12px;
+      border: 1px solid #333;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: #00ff88;
+      box-shadow: 0 0 20px rgba(0,255,136,0.3);
+    }
+
+    .card img {
+      width: 100%;
+      max-height: 160px;
+      object-fit: contain;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .card h2 {
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      font-size: 15px;
+      color: #ccc;
+      margin-bottom: 18px;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 10px 16px;
+      background: #00ff88;
+      color: black;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .card a:hover {
+      background: #00cc6d;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+      background: #111;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>Drip City</header>
+
+<section class="hero">
+  <h1>Welcome to Drip City</h1>
+  <p>Your all‑in‑one football gear hub — built for players who want to dominate.</p>
+  <button onclick="document.getElementById('categories').scrollIntoView({behavior:'smooth'})">
+    Explore Categories
+  </button>
+</section>
+
+<section id="categories" class="categories">
+
+  <div class="card">
+    <img src="https://classic.cdn.media.amplience.net/i/hibbett/F8122_0201_right" alt="Cleats">
+    <h2>Cleats</h2>
+    <p>Elite traction and speed for every position on the field.</p>
+    <a href="cleats.html">Shop Cleats</a>
+  </div>
+  
+  <div class="card">
+    <img src="https://battlesports.com/cdn/shop/articles/DSC01508_1.webp?v=1757966585" alt="Gloves">
+    <h2>Gloves</h2>
+    <p>Sticky grip and premium control for receivers and playmakers.</p>
+    <a href="gloves.html">Shop Gloves</a>
+  </div>
+  
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKIzho4AWnsAOw4iWie1qNRYN3Ttsm7Pal8A&s" alt="Compression">
+    <h2>Compression</h2>
+    <p>Stay warm, stay fast, stay locked‑in with performance layers.</p>
+    <a href="compression.html">Shop Compression</a>
+  </div>
+
+  <div class="card">
+    <img src="https://battlesports.com/cdn/shop/collections/DSC08718__84339_0c0c46a7-fcf7-4e2a-8674-534029b593eb.jpg?v=1752615625&width=600" alt="Drip">
+    <h2>Drip</h2>
+    <p>Accessories that complete your look — towels, socks, bands, and more.</p>
+    <a href="drip.html">Shop Drip</a>
+  </div>
+
+  
+
+</section>
+
+<footer>
+  © 2026 Drip City — Built for athletes chasing greatness.
+</footer>
+
+</body>
+</html>
+
